@@ -27,13 +27,19 @@ namespace AtividadesCurso
             //Questao15.Executar();
             //Questao16.Executar();
             //Questao17.Executar();
-            ///Questao18.Executar();
+            //Questao18.Executar();
             //Questao19.Executar();
             //Questao20.Executar();
             //Questao21.Executar();
             //Questao22.Executar();
             //Questao23.Executar();
-            Questao24.Executar();
+            //Questao24.Executar();
+            //Questao25.Executar();
+            //Calculadora.Executar();
+            //Foreach.Executar();
+            //List.Executar();
+            ExercicioLista.Executar();
+
 
 
 

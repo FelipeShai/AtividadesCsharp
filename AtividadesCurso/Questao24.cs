@@ -23,6 +23,7 @@ namespace AtividadesCurso
                 int segundo = i * i;
                 int terceiro = i * i * i;
                 Console.WriteLine($"{primeiro} {segundo} {terceiro}");
+
             }
         }
 

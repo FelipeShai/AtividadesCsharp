@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AtividadesCurso.ExercicioListas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,13 +39,43 @@ namespace AtividadesCurso
             //Calculadora.Executar();
             //Foreach.Executar();
             //List.Executar();
-            ExercicioLista.Executar();
+            //ExercicioLista.Executar();
 
+            //Padaria padaria = new Padaria();
+            //var Tulio = new Tulio();
+            //var Joao = new Joao();
+            //var Placa = new PlacaPaoDoDia();
+            //padaria.Funcionar(Joao,Placa);
 
+            //Cafeteria cafeteria = new Cafeteria();
+            //var Shai = new Shai();
+            //var Tulio = new Tulio();
+            //var Cliente = new Cliente();
+            //cafeteria.Operar(Tulio, Shai, Cliente);
 
+            //ResultadoOutputPort outputPort = new();
+            //TesteUseCase useCase = new(outputPort);
+            //useCase.VerificarNumerosBilhetes(3);
 
+            //if(outputPort.Premiado == true)
+            //{
+            //    Console.WriteLine("Sucesso");
+            //}
+
+            //if (outputPort.Erro == true)
+            //{
+            //    Console.WriteLine($"Código do erro {outputPort.CodigoErro}");
+            //}
+
+            //if (outputPort.NaoPremiado == true)
+            //{
+            //    Console.WriteLine(outputPort.Mensagem);
+            //}
 
             //LearningLinq.ExecutarLearningLinq();
+
+            FuncionarioLogica funcionarioLogica = new();
+            funcionarioLogica.Executar();
         }
     }
 }

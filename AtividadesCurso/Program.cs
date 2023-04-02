@@ -187,7 +187,8 @@ namespace AtividadesCurso
                 if
                 (fileStream != null) { streamReader.Close(); }
                 if (fileStream != null) { fileStream.Close(); }
+                //comentário
             }
-        }
+        }        
     }
 }
